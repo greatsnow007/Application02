@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <TextView
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_bright"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_dark"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_dark"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_weight="1"
+            android:text="#CC9966"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:elevation="0dp"
+            android:background="#CC9966"
+            android:layout_gravity="top|center_vertical|center_horizontal"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:gravity="center_vertical"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:text="#CCCC00"
+            android:layout_gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#CCCC00"
+            android:textAlignment="center"
+            android:gravity="center_vertical"></TextView>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+
+            android:text="#FFCC99"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#FFCC99"
+            android:textAlignment="viewEnd"
+            android:gravity="center_vertical"></TextView>
+    </LinearLayout>
+</LinearLayout>
