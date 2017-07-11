@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
         public View getView(int i, View view, ViewGroup viewGroup) {
 
             Person person = (Person)getItem(position);
-                        View item = View.inflate(MainActivity.this, R.layout.list_item, null);
+            View item = View.inflate(MainActivity.this, R.layout.list_item, null);
                        TextView txtName = (TextView)item.findViewById(R.id.tname);
                         TextView txtTel = (TextView)item.findViewById(R.id.tphone);
                         TextView txtSalary = (TextView)item.findViewById(R.id.tsalary);
